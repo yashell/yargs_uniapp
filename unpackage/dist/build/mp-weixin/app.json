@@ -1,0 +1,45 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/map/map",
+    "pages/main/main",
+    "pages/login/login",
+    "pages/reg/reg",
+    "pages/pwd/pwd",
+    "pages/user/user"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarBackgroundColor": "#0d3763",
+    "backgroundColor": "#fbf9fe",
+    "backgroundTextStyle": "light",
+    "navigationBarTitleText": "yargs",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#9fc8f3",
+    "selectedColor": "#ffffff",
+    "backgroundColor": "#0d2e50",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "static/images/nav1.png",
+        "selectedIconPath": "static/images/nav1_active.png"
+      },
+      {
+        "pagePath": "pages/map/map",
+        "text": "出行",
+        "iconPath": "static/images/nav2.png",
+        "selectedIconPath": "static/images/nav2_active.png"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "static/img/user.png",
+        "selectedIconPath": "static/img/userHL.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
